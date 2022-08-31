@@ -30,7 +30,7 @@ twitter_username: raeleigh_scatter
 github_username:  rae-holcomb
 
 # Build settings
-theme: minima
+theme: hyde
 plugins:
   - jekyll-feed
 
