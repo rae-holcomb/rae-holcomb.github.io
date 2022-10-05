@@ -251,7 +251,7 @@ html {
   padding: 0;
   position: fixed !important;
   top: calc(0px);  
-  width: 22%;
+  width: 18%;
   will-change: transform;
   z-index: 9999 !important;
 }
@@ -305,7 +305,7 @@ html {
     color: #fff;
     width: 55%;
     right: 10%;
-    left: 35%;
+    left: 30%;
     position: relative;
     min-height: 100vh;
     padding-bottom: 60px;
@@ -679,14 +679,15 @@ section.contact-me {
 
 @media screen and (max-width: 1680px) {
     .menu {
-        left: 4%;
+        left: 0%;
+        width: 22%;
     }
 
     .section {
         color: #fff;
-        width: 65%;
+        width: 68%;
         right: 5%;
-        left: 30%;
+        left: 26%;
     }
 }
 
@@ -735,7 +736,7 @@ section.contact-me {
 
 @media screen and (max-width: 1280px) and (min-width: 846px) {
     .menu {
-        width: 25%;
+        width: 22%;
     }
 }
 
