@@ -33,17 +33,24 @@ textarea {
 }
 
 a {
-	color: #9FF;
+	color: #6667AB;
     text-decoration: none;
 }
 
 a:hover {
-	color: #FF0;
+	color: rgb(12, 207, 207);
 	text-decoration: none;
 }
 
 p {
 	letter-spacing: 0.5px;
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+}
+
+credit {
+	font-size: 12px;
+    letter-spacing: 0.5px;
     line-height: 2em;
     color: rgb(0, 0, 0);
 }
@@ -307,7 +314,7 @@ html {
     right: 10%;
     left: 30%;
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     padding-bottom: 60px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -382,7 +389,13 @@ button:hover {
 
 .right-image-post {
     margin-bottom: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(250, 250, 250, 0.1);
+}
+
+.left-image-post {
+    margin-bottom: 60px;
+    padding-bottom: 30px;
     border-bottom: 2px solid rgba(250, 250, 250, 0.1);
 }
 
